@@ -1,0 +1,10 @@
+Time records (using Spot Profiler)
+
+Synchronized
+2522991400 Nanoseconds -> 2.52 seconds (Rounded)
+
+Mutex
+2513145800 Nanoseconds -> 2.51 seconds (Rounded)
+
+AtomicInteger
+2525875400 Nanoseconds -> 2.52 seconds (Rounded)
