@@ -1,19 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e2911a91-c180-4e6e-acac-f30e8e957938" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../LabThree/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabThree/src/TaskReusableBarrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabThree/src/TaskSingleUseBarrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/LabTwo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Signal Exercise (Non-Lab!)/LabFive.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Signal Exercise (Personal)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabThree/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabThree/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabThree/src/Task.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFive/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFive/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFive/src/FifoQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFiveRedux/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFiveRedux/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFiveRedux/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFiveRedux/LabFiveRedux.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFiveRedux/src/lab/two/FifoQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFiveRedux/src/lab/two/FollowerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFiveRedux/src/lab/two/LeaderTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabFive/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabFive/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabFive/src/FollowerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabFive/src/FollowerTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabFive/src/LeaderTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabFive/src/LeaderTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabFive/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabFive/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabThree/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/external/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/jquery-ui.structure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/jszip-utils/dist/jszip-utils-ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/jszip-utils/dist/jszip-utils-ie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/jszip-utils/dist/jszip-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/jszip-utils/dist/jszip-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/jszip/dist/jszip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script-dir/jszip/dist/jszip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabThree/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +101,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LabFive" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,16 +115,32 @@
       <updated>1637268774748</updated>
       <workItem from="1637268776090" duration="27000" />
       <workItem from="1637348554971" duration="597000" />
+      <workItem from="1637571108527" duration="104000" />
+      <workItem from="1640543585509" duration="1365000" />
+      <workItem from="1640713542559" duration="1200000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2981" y="-783" key="FileChooserDialogImpl" timestamp="1637268800906">
-      <screen x="1920" y="-1239" width="2560" height="1400" />
+    <state x="796" y="339" key="FileChooserDialogImpl" timestamp="1637571211376">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2981" y="-783" key="FileChooserDialogImpl/-1920.833.1920.1040/0.0.1920.1040/1920.-1239.2560.1400@1920.-1239.2560.1400" timestamp="1637268800906" />
+    <state x="796" y="339" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1637571211376" />
   </component>
 </project>
