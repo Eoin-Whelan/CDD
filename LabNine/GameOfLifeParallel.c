@@ -37,8 +37,7 @@ void evolve(void *u, int w, int h)
 
 	unsigned (*univ)[w] = u;
 	unsigned new[h][w];
-	#pragma omp parallel shared(new)
-	#pragma omp for
+
 	for_y for_x {
 		int n = 0;
 		for (int y1 = y - 1; y1 <= y + 1; y1++)
@@ -47,7 +46,7 @@ void evolve(void *u, int w, int h)
 					n++;
 
 		if (univ[y][x]) n--;
-		#pragma omp critical
+
 		new[y][x] = (n == 3 || (n == 2 && univ[y][x]));
 	}
 
@@ -57,7 +56,7 @@ void evolve(void *u, int w, int h)
 /*
 	game takes a width and height for the board.
 	
-	Converting Conway's Game of Life to a paralell execution
+	Converting Conway's Game of Life to a parallel execution
 	entails defining the region containing the while look as
 	a region for a single thread to create two additional task
 	threads that perform the show() and evolve() calls, 

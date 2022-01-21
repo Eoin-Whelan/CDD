@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>LabEight: makefile.mk File Reference</title>
+<title>Lab 9 - Parallelizing Game Of Life: makefile.mk File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">LabEight
+   <div id="projectname">Lab 9 - Parallelizing Game Of Life
    </div>
-   <div id="projectbrief">A basic hello world program with a random loop to demonstrate basic C compilation as part of CDCC LabEight.</div>
+   <div id="projectbrief">Parallel version of Conway&#39;s Game of Life using OpenMP.</div>
   </td>
  </tr>
  </tbody>
@@ -66,23 +66,22 @@ $(function() {
 <div class="title">makefile File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-  <h2 class="groupheader">Function Documentation</h2>
-<a id="a840291bc02cba5474a4cb46a9b9566fe"></a>
+  <div class="memdoc">
+    <p> MakeFile for parallel Conway's Game of Life. </p>
+    <p> C Compiler: gcc </p>
+    <p> FLAGS: OpenMP to enable recognition of parallel regions. </p><br>
 
+    <p> Targets</p>
+    <p> GameOfLife</p>
+    <p> Prerequisite: GameOfLifeParallel.o </p>
+    <p> Target compiles a GameOfLifeParallel executable using .o file.</p><br>
 
-<a id="a840291bc02cba5474a4cb46a9b9566fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a840291bc02cba5474a4cb46a9b9566fe">&#9670;&nbsp;</a></span>Brief</h2>
+    <p> GameOfLife.o</p>
+    <p> Prerequisite: GameOfLifeParallel.c </p>
+    <p> Target compiles .</p><br>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p> Rudimentary makefile to compile the hello.c program. </p>
- </p>
+    <p> clean</p>
+    <p> cellspacing</p>
 
 </div><!-- contents -->
 <!-- start footer part -->

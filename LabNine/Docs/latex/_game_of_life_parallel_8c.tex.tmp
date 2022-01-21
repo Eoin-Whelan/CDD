@@ -1,0 +1,84 @@
+\hypertarget{_game_of_life_parallel_8c}{}\doxysection{Game\+Of\+Life\+Parallel.\+c File Reference}
+\label{_game_of_life_parallel_8c}\index{GameOfLifeParallel.c@{GameOfLifeParallel.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$omp.\+h$>$}\newline
+Include dependency graph for Game\+Of\+Life\+Parallel.\+c\+:
+% FIG 0
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_game_of_life_parallel_8c_a54c984bb81fb3a84004186c4e75795fe}{for\+\_\+x}}~for (int x = 0; x $<$ w; x++)
+\item 
+\#define \mbox{\hyperlink{_game_of_life_parallel_8c_a8771010770ee886b978d71122ae58038}{for\+\_\+y}}~for (int y = 0; y $<$ h; y++)
+\item 
+\#define \mbox{\hyperlink{_game_of_life_parallel_8c_a0b91f34be643c11f7ed3967899151d64}{for\+\_\+xy}}~\mbox{\hyperlink{_game_of_life_parallel_8c_a54c984bb81fb3a84004186c4e75795fe}{for\+\_\+x}} \mbox{\hyperlink{_game_of_life_parallel_8c_a8771010770ee886b978d71122ae58038}{for\+\_\+y}}
+\item 
+\#define \mbox{\hyperlink{_game_of_life_parallel_8c_a22d2e8690fbfee4371bb6845dbbdf526}{M\+A\+X\+\_\+T}}~2
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_game_of_life_parallel_8c_afe8a5fcd79f82bdbb423635aef79059c}{show}} (void $\ast$u, int w, int h)
+\item 
+void \mbox{\hyperlink{_game_of_life_parallel_8c_aa90bcf9a11b24a504e319b7c11e9813d}{evolve}} (void $\ast$u, int w, int h)
+\item 
+void \mbox{\hyperlink{_game_of_life_parallel_8c_a8c98630c61c77c213aa604975509ee0b}{game}} (int w, int h)
+\item 
+int \mbox{\hyperlink{_game_of_life_parallel_8c_aa295a6a839cb67bcefe81cedd524ee75}{main}} (int c, char $\ast$$\ast$v)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_game_of_life_parallel_8c_a54c984bb81fb3a84004186c4e75795fe}\label{_game_of_life_parallel_8c_a54c984bb81fb3a84004186c4e75795fe}} 
+\index{GameOfLifeParallel.c@{GameOfLifeParallel.c}!for\_x@{for\_x}}
+\index{for\_x@{for\_x}!GameOfLifeParallel.c@{GameOfLifeParallel.c}}
+\doxysubsubsection{\texorpdfstring{for\_x}{for\_x}}
+{\footnotesize\ttfamily \#define for\+\_\+x~for (int x = 0; x $<$ w; x++)}
+
+\mbox{\Hypertarget{_game_of_life_parallel_8c_a0b91f34be643c11f7ed3967899151d64}\label{_game_of_life_parallel_8c_a0b91f34be643c11f7ed3967899151d64}} 
+\index{GameOfLifeParallel.c@{GameOfLifeParallel.c}!for\_xy@{for\_xy}}
+\index{for\_xy@{for\_xy}!GameOfLifeParallel.c@{GameOfLifeParallel.c}}
+\doxysubsubsection{\texorpdfstring{for\_xy}{for\_xy}}
+{\footnotesize\ttfamily \#define for\+\_\+xy~\mbox{\hyperlink{_game_of_life_parallel_8c_a54c984bb81fb3a84004186c4e75795fe}{for\+\_\+x}} \mbox{\hyperlink{_game_of_life_parallel_8c_a8771010770ee886b978d71122ae58038}{for\+\_\+y}}}
+
+\mbox{\Hypertarget{_game_of_life_parallel_8c_a8771010770ee886b978d71122ae58038}\label{_game_of_life_parallel_8c_a8771010770ee886b978d71122ae58038}} 
+\index{GameOfLifeParallel.c@{GameOfLifeParallel.c}!for\_y@{for\_y}}
+\index{for\_y@{for\_y}!GameOfLifeParallel.c@{GameOfLifeParallel.c}}
+\doxysubsubsection{\texorpdfstring{for\_y}{for\_y}}
+{\footnotesize\ttfamily \#define for\+\_\+y~for (int y = 0; y $<$ h; y++)}
+
+\mbox{\Hypertarget{_game_of_life_parallel_8c_a22d2e8690fbfee4371bb6845dbbdf526}\label{_game_of_life_parallel_8c_a22d2e8690fbfee4371bb6845dbbdf526}} 
+\index{GameOfLifeParallel.c@{GameOfLifeParallel.c}!MAX\_T@{MAX\_T}}
+\index{MAX\_T@{MAX\_T}!GameOfLifeParallel.c@{GameOfLifeParallel.c}}
+\doxysubsubsection{\texorpdfstring{MAX\_T}{MAX\_T}}
+{\footnotesize\ttfamily \#define M\+A\+X\+\_\+T~2}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_game_of_life_parallel_8c_aa90bcf9a11b24a504e319b7c11e9813d}\label{_game_of_life_parallel_8c_aa90bcf9a11b24a504e319b7c11e9813d}} 
+\index{GameOfLifeParallel.c@{GameOfLifeParallel.c}!evolve@{evolve}}
+\index{evolve@{evolve}!GameOfLifeParallel.c@{GameOfLifeParallel.c}}
+\doxysubsubsection{\texorpdfstring{evolve()}{evolve()}}
+{\footnotesize\ttfamily void evolve (\begin{DoxyParamCaption}\item[{void $\ast$}]{u,  }\item[{int}]{w,  }\item[{int}]{h }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_game_of_life_parallel_8c_a8c98630c61c77c213aa604975509ee0b}\label{_game_of_life_parallel_8c_a8c98630c61c77c213aa604975509ee0b}} 
+\index{GameOfLifeParallel.c@{GameOfLifeParallel.c}!game@{game}}
+\index{game@{game}!GameOfLifeParallel.c@{GameOfLifeParallel.c}}
+\doxysubsubsection{\texorpdfstring{game()}{game()}}
+{\footnotesize\ttfamily void game (\begin{DoxyParamCaption}\item[{int}]{w,  }\item[{int}]{h }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_game_of_life_parallel_8c_aa295a6a839cb67bcefe81cedd524ee75}\label{_game_of_life_parallel_8c_aa295a6a839cb67bcefe81cedd524ee75}} 
+\index{GameOfLifeParallel.c@{GameOfLifeParallel.c}!main@{main}}
+\index{main@{main}!GameOfLifeParallel.c@{GameOfLifeParallel.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{c,  }\item[{char $\ast$$\ast$}]{v }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_game_of_life_parallel_8c_afe8a5fcd79f82bdbb423635aef79059c}\label{_game_of_life_parallel_8c_afe8a5fcd79f82bdbb423635aef79059c}} 
+\index{GameOfLifeParallel.c@{GameOfLifeParallel.c}!show@{show}}
+\index{show@{show}!GameOfLifeParallel.c@{GameOfLifeParallel.c}}
+\doxysubsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily void show (\begin{DoxyParamCaption}\item[{void $\ast$}]{u,  }\item[{int}]{w,  }\item[{int}]{h }\end{DoxyParamCaption})}
+

@@ -1,4 +1,4 @@
-#	Set flags
+#	Set C compiler & flags
 CC = gcc
 CFLAGS = -fopenmp
 

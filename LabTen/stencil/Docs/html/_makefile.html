@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>LabEight: makefile.mk File Reference</title>
+<title>Stencil: Makefile.mk File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">LabEight
+   <div id="projectname">Stencil
    </div>
-   <div id="projectbrief">A basic hello world program with a random loop to demonstrate basic C compilation as part of CDCC LabEight.</div>
+   <div id="projectbrief">Parallel example of a stencil map.</div>
   </td>
  </tr>
  </tbody>
@@ -63,26 +63,34 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="headertitle">
-<div class="title">makefile File Reference</div>  </div>
+<div class="title">Makefile File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-  <h2 class="groupheader">Function Documentation</h2>
-<a id="a840291bc02cba5474a4cb46a9b9566fe"></a>
+  <div class="memdoc">
+    <p> MakeFile for parallel stencil implementation. </p>
+    <p> C Compiler: g++ </p>
+    <p> FLAGS: C++ 11 std, OpenMP </p><br>
+
+    <p> Targets</p>
+    <p> %.o</p>
+    <p> Prerequisite: Any .cpp file </p>
+    <p> Target states any .o files generated must have a corresponding .cpp file.</p><br>
+
+    <p> STENCIL</p>
+    <p> Prerequisite: stencil.o </p>
+    <p> Target compiles an executable, parallel stencil demo program by using the linker to process .o file.</p><br>
+
+    <p> MANDEL</p>
+    <p> Prerequisite: mandelbroit.o </p>
+    <p> Target compiles an executable, mandelbroit stencil program by using the linker to process .o file.</p><br>
+    <p> In current Lab 10 files, no mandelbroit.cpp exists, therefore this implementation will not execute in make cmd.</p>
 
 
-<a id="a840291bc02cba5474a4cb46a9b9566fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a840291bc02cba5474a4cb46a9b9566fe">&#9670;&nbsp;</a></span>Brief</h2>
+    <p> DSORT</p>
+    <p> Unsure of this function. DEBUGFLAGS set the optimization level to 0 and the -g is to display debug information?</p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p> Rudimentary makefile to compile the hello.c program. </p>
- </p>
+    <p> clean</p>
+    <p> Cleans all .o files from directory.</p>
 
 </div><!-- contents -->
 <!-- start footer part -->

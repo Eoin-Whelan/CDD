@@ -1,0 +1,53 @@
+\hypertarget{quicksort_8cpp}{}\doxysection{quicksort.\+cpp File Reference}
+\label{quicksort_8cpp}\index{quicksort.cpp@{quicksort.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$complex$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$functional$>$}\newline
+{\ttfamily \#include $<$limits$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{quicksort_8cpp_add0c75483571528ab72d2557f4a2aeaf}{partition}} (vector$<$ int $>$ \&my\+Array, int low, int high)
+\item 
+int \mbox{\hyperlink{quicksort_8cpp_aae2561911aebe6763a11df2e104b885a}{quicksort}} (vector$<$ int $>$ \&my\+Array, int low, int high)
+\item 
+int \mbox{\hyperlink{quicksort_8cpp_a840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int \mbox{\hyperlink{quicksort_8cpp_aa07caf85cdcdc69bc138cb903c343f52}{L\+E\+N\+G\+TH}} =2000
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{quicksort_8cpp_a840291bc02cba5474a4cb46a9b9566fe}\label{quicksort_8cpp_a840291bc02cba5474a4cb46a9b9566fe}} 
+\index{quicksort.cpp@{quicksort.cpp}!main@{main}}
+\index{main@{main}!quicksort.cpp@{quicksort.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Main generates an array of random integers between 1 and 1,000, then performing one quicksort method call and outputting the results next. \mbox{\Hypertarget{quicksort_8cpp_add0c75483571528ab72d2557f4a2aeaf}\label{quicksort_8cpp_add0c75483571528ab72d2557f4a2aeaf}} 
+\index{quicksort.cpp@{quicksort.cpp}!partition@{partition}}
+\index{partition@{partition}!quicksort.cpp@{quicksort.cpp}}
+\doxysubsubsection{\texorpdfstring{partition()}{partition()}}
+{\footnotesize\ttfamily int partition (\begin{DoxyParamCaption}\item[{vector$<$ int $>$ \&}]{my\+Array,  }\item[{int}]{low,  }\item[{int}]{high }\end{DoxyParamCaption})}
+
+partition is a part of quicksort\textquotesingle{}s divide and conquer strategy in finding the pivot necessary as part of the quicksort algorithm. \mbox{\Hypertarget{quicksort_8cpp_aae2561911aebe6763a11df2e104b885a}\label{quicksort_8cpp_aae2561911aebe6763a11df2e104b885a}} 
+\index{quicksort.cpp@{quicksort.cpp}!quicksort@{quicksort}}
+\index{quicksort@{quicksort}!quicksort.cpp@{quicksort.cpp}}
+\doxysubsubsection{\texorpdfstring{quicksort()}{quicksort()}}
+{\footnotesize\ttfamily int quicksort (\begin{DoxyParamCaption}\item[{vector$<$ int $>$ \&}]{my\+Array,  }\item[{int}]{low,  }\item[{int}]{high }\end{DoxyParamCaption})}
+
+quicksort performs a partition and recursively calls itself to continue partitioning and sorting itself. Note\+: The region that recursively uses Open\+MP to delegate two recursive quicksort calls, using the low and high sections of the initial call to begin. 
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{quicksort_8cpp_aa07caf85cdcdc69bc138cb903c343f52}\label{quicksort_8cpp_aa07caf85cdcdc69bc138cb903c343f52}} 
+\index{quicksort.cpp@{quicksort.cpp}!LENGTH@{LENGTH}}
+\index{LENGTH@{LENGTH}!quicksort.cpp@{quicksort.cpp}}
+\doxysubsubsection{\texorpdfstring{LENGTH}{LENGTH}}
+{\footnotesize\ttfamily const int L\+E\+N\+G\+TH =2000}
+
